@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(255, 158, 218);
+    text-align: center;
+}
+h1 {
+    width: 15%;
+    margin: 0 auto;
+    color: white;
+}
+h1:hover {
+    color: black;
+}
+img {
+    width: 15%;
+    margin: 0 auto;
+}
+li {
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+}
