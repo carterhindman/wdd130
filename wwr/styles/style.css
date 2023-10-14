@@ -9,8 +9,8 @@
     --accent3-color: #EB8258;
   
     /* change the values below to your chosen font(s) */
-    --heading-font: "Lobster";
-    --paragraph-font: "Lilita One", sans-serif;
+    --heading-font: "Lobster", impact, helvetica;
+    --paragraph-font: "Lilita One", sans-serif, helvetica;
   
     /* these colors below should be chosen from among your palette colors above */
     --headline-color-on-white: #35524A;  /* headlines on a white background */ 
@@ -32,6 +32,7 @@ nav a {
     text-align: center;
     color: var(--nav-link-color);
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: var(--nav-hover-background-color);
@@ -52,6 +53,10 @@ main section {
 }
 body {
     background-color: var(--secondary-color);
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: var(--primary-color);
@@ -60,6 +65,10 @@ header {
     background-color: whitesmoke;
     color: var(--accent1-color);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: var(--accent1-color);
@@ -67,21 +76,31 @@ header {
 }
 .msg {
     background-color: var(--primary-color);
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: var(--primary-color);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
+    font-family: var(--heading-font);
+    font-size: 2em;
     color: var(--headline-color-on-color);
+    margin-top: 10px;
 }
 h4 {
     color: var(--headline-color-on-color);
 }
 .msg h2 {
+    font-family: var(--heading-font);
     color: var(--headline-color-on-color);
 }
 .msg p {
     color: var(--paragraph-color-on-color);
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     color: var(--nav-link-color);
@@ -95,6 +114,7 @@ footer a:hover {
 } 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -104,4 +124,28 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+p {
+    font-family: var(--paragraph-font);
+}
+a {
+    font-family: var(--paragraph-font);
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
