@@ -103,9 +103,11 @@ header {
 }
 h1 {
     color:var(--secondary-color);
+    font-family: var(--heading-font);
 }
 p {
-    color:var(--paragraph-color-on-white)
+    color:var(--paragraph-color-on-white);
+    font-family: var(--paragraph-font);
 }
 .second-pic {
     width: 100%;
@@ -128,4 +130,56 @@ footer a {
 footer a:hover {
     color: var(--accent1-color);
     background-color: var(--secondary-color);
+}
+.pricing-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    margin: 0 auto;
+    gap: 25px;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 25px;
+}
+.price-pic {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+.price-pic-container {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    width: 100%;
+}
+.price-info {
+    grid-column: 4/7;
+    grid-row: 1/2;
+    width: 100%;
+}
+.price2-pic-container {
+    grid-column: 1/7;
+    width: 100%;
+    height: auto;
+    grid-row: 2/3;
+}
+.price2-pic {
+    width: 100%;
+    height: auto;
+}
+#price-contact-button {
+    grid-column: 3/5;
+    grid-row: 3/4;
+}
+.price2-info {
+    grid-column: 1/7;
+    grid-row: 4/5;
+}
+.price2-info p {
+    text-align: center;
+}
+#price-contact-button {
+    font-family: var(--heading-font);
 }
