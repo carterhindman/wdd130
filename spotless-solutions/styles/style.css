@@ -190,7 +190,7 @@ footer a:hover {
 }
 .contact-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     width: 100%;
     margin: 0 auto;
     gap: 25px;
@@ -203,22 +203,21 @@ footer a:hover {
 }
 #lil--pic {
     width: 100%;
-    margin: 0 auto;
     height: auto;
 }
 .lil-pic {
-    grid-column: 4/7;
+    grid-column: 3/6;
     grid-row: 4/6;
     width: 100%;
     margin: 0 auto;
 }
 .main-c-info {
-    grid-column: 3/5;
+    grid-column: 3/4;
     grid-row: 2/4;
     width: 100%;
 }
 .big-pic {
-    grid-column: 1/7;
+    grid-column: 1/6;
     width: 100%;
     height: auto;
     grid-row: 7/11;
@@ -228,11 +227,11 @@ footer a:hover {
     height: auto;
 }
 .pricing-c-button {
-    grid-column: 3/5;
+    grid-column: 3/4;
     grid-row: 6/7;
 }
 .first-info {
-    grid-column: 1/4;
+    grid-column: 1/3;
     grid-row: 4/6;
 }
 .first-info p {
